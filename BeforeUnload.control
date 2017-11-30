@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SupportFiles />
+	<RuntimeRender>BeforeUnload.js</RuntimeRender>
+	<ResizeSupported>false</ResizeSupported>
+	<ObjClass>BeforeUnload</ObjClass>
+	<Description>Before Unload</Description>
+	<Id>074087e0-a7b4-14e0-aad2-0801405c9b62</Id>
+	<Name>BeforeUnload</Name>
+	<ShowMethod>show</ShowMethod>
+	<ReferencedFiles />
+	<Constructor>
+		<Parameters />
+		<Name>BeforeUnload</Name>
+	</Constructor>
+	<PropertiesDefinition>PropertiesDefinition.xml</PropertiesDefinition>
+	<DesignRender>Render.xsl</DesignRender>
+	<ControlType />
+	<Version>1.0</Version>
+	<Categories />
+	<Events />
+	<Actions />
+	<IsPublic>true</IsPublic>
+	<Methods>
+		<Method>
+			<Name>SetMessage</Name>
+			<Signature>SetMessage(msg:Character)</Signature>
+			<Parameters>
+				<Parameter>Character</Parameter>
+			</Parameters>
+		</Method>
+		<Method>
+			<Name>EnableMessage</Name>
+			<Signature>EnableMessage()</Signature>
+			<Parameters />
+		</Method>
+		<Method>
+			<Name>DisableMessage</Name>
+			<Signature>DisableMessage()</Signature>
+			<Parameters />
+		</Method>
+		<Method>
+			<Name>EnableEnter</Name>
+			<Signature>EnableEnter()</Signature>
+			<Parameters />
+		</Method>
+		<Method>
+			<Name>DisableEnter</Name>
+			<Signature>DisableEnter()</Signature>
+			<Parameters />
+		</Method>
+	</Methods>
+</ControlDefinition>

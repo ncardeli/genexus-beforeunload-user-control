@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Object id='BeforeUnload'>
+		<Group>
+			<Name>General</Name>
+			<Type>Main</Type>
+			<Children>
+				<Prop>
+					<Id>ExecuteEnter</Id>
+					<Name>ExecuteEnter</Name>
+					<Type>Boolean</Type>
+					<Default>false</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+					<Description>True if the Enter event should be executed before leaving the page.</Description>
+				</Prop>
+				<Prop>
+					<Id>ShowMessage</Id>
+					<Name>ShowMessage</Name>
+					<Type>Boolean</Type>
+					<Default>true</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+					<Description>True if a dialog box should appear giving users the option to stay on the current page.</Description>
+				</Prop>
+				<Prop>
+					<Id>Message</Id>
+					<Name>Message</Name>
+					<Type>Text</Type>
+					<Default>Are you sure you want to leave this page without saving your changes?</Default>
+					<Metadata>
+						<Value name="FlagScope">DesignTime</Value>
+					</Metadata>
+					<Description>A message to show when the dialog box appears giving users the option to stay on the current page. Not all browsers show the message as this mechanism is not standard.</Description>
+				</Prop>
+			</Children>
+		</Group>
+	</Object>
+</Content>
